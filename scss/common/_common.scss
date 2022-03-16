@@ -1,0 +1,60 @@
+/*>>>>>>>>>>>>>>>>>>>>>>
+
+
+Template Name: Educato
+Template URL : 
+Description  : 
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.1.1
+
+<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>>>>>
+    HTML  INDEX
+
+01. Header Section
+02. Banner Section
+03. About Section
+04. Watch Section
+
+<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+
+/* Common Part Start*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:focus, select:focus,
+input:focus{
+             text-decoration: none;
+             outline: 0;
+             box-shadow: none;
+           }
+h1,h2,h3,h4,h5,h6{
+               list-style: none;
+       }
+ul,li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+button:focus{
+    outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');

@@ -1,0 +1,74 @@
+#header{
+    .navbar{
+        z-index: 55;
+        height: 110px;
+        background-color: #ffff;
+    .offcan_btn{
+        margin-right: 10px;
+        background-color: #156e43;
+        border: 1px solid white;
+    }
+        .navbar-nav{
+            margin-left: 30px;
+            .nav-item{
+                padding: 0 10px;
+                .nav-link{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: black;
+                }
+                .active{
+                      font-weight: 700;
+                }
+            }
+            .dropdown-menu {
+                background-color: #ffff;
+                .dropdown-item{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: black;
+                    text-transform: uppercase;
+                    &:hover{
+                        background-color: #ff8367;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .search_icon{
+            margin: 0 35px;
+            i{
+                color: #787878;
+                font-size: 18px;
+
+            }
+        }
+        .login_nav{
+            height: 60px;
+            width: 60px;
+            background-color: #ff8367;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+          ul{
+              margin-left: -16px;
+              margin-top: 10px;
+              li{
+                  display: inline-block;
+                  font-size: 13px;
+                  color: #ffff;
+                 
+              }
+          }
+          .nav_manu{
+              margin-top: -26px;
+          }
+          
+        }
+    }
+}
+
+  
+  

@@ -1,0 +1,45 @@
+@mixin button {
+    height: 60px;
+    width: 200px;
+    background-color: #4c69ff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+@mixin bigRound{
+        height: 155px;
+        width: 155px;
+        border: 20px solid #ff8367;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+@mixin smallRound{
+    height: 90px;
+    width: 90px;
+    border: 15px solid #ff8367;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+                   @mixin center{
+                                     position: absolute;
+                                     top: 50%;
+                                     left: 50%;
+                                     transform: translate(-50%,-50%);
+                                     -webkit-transform: translate(-50%,-50%);
+                                     -moz-transform: translate(-50%,-50%);
+                                     -ms-transform: translate(-50%,-50%);
+                                     -o-transform: translate(-50%,-50%);
+                            }

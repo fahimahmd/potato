@@ -1,0 +1,159 @@
+#about{
+    margin-bottom: 100px;
+    .about_main{
+       .about_left{
+           position: relative;
+           .banner_round_4{
+            position: absolute;
+            bottom:0;
+            left: -10%;
+            .round_small{
+               @include smallRound;
+         
+         }
+           }
+           img{
+               height: 470px;
+               width: 470px;
+               border-radius: 50%;
+               -webkit-border-radius: 50%;
+               -moz-border-radius: 50%;
+               -ms-border-radius: 50%;
+               -o-border-radius: 50%;
+}
+        .batch{
+            height: 200px;
+            width: 200px;
+            background-color: #ffff;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            .batch_cercle{
+                height: 150px;
+                width: 150px;
+                border: 1px dashed #ff8367;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                -webkit-transform: translate(-50%,-50%);
+                -moz-transform: translate(-50%,-50%);
+                -ms-transform: translate(-50%,-50%);
+                -o-transform: translate(-50%,-50%);
+                .batch_text{
+                    text-align: center;
+                    padding-top: 10px;
+                    h3{
+                        color: #ff8367;
+                        font-size: 50px;
+                        font-weight: 800;
+                        display: inline;
+                        
+                    }
+                    p{
+                        color: black;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+            }
+}
+    }
+
+    .about_right{
+        padding-left: 50px;
+        position: relative;
+        .banner_round_5{
+            position: absolute;
+            top:0;
+            right: -10%;
+            .round_small{
+               @include smallRound;
+         
+         }
+           }
+            h2{
+                color: #ff8367;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            h3{
+                color: black;
+                font-size: 60px;
+                font-weight: 800;
+                padding-top: 10px;
+            }
+            p{
+                color: #787878;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                padding: 20px 0;
+            }
+            .about_sections{
+                ul{
+                    margin-left: -30px;
+                    li{
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 0;
+                       .about_icon{
+                           margin-right: 20px;
+                           i{
+                             font-size: 20px;
+                             padding: 10px;
+                             background-color: #ff8367;
+                             color: #ffff;
+                             border-radius: 50%;
+                             -webkit-border-radius: 50%;
+                             -moz-border-radius: 50%;
+                             -ms-border-radius: 50%;
+                             -o-border-radius: 50%;
+}
+                       } 
+                       .about_icon_text{
+                           a{
+                            color: black;
+                            font-size: 17px;
+                            font-weight: 400;
+                           }
+                       }
+                    }
+                }
+            }
+            .about_button{
+                button{
+                    height: 60px;
+                    width: 150px;
+                    background-color: #ff8367;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    &:hover{
+                       background-color: #eb7358;
+                    }
+                    a{
+                       color: #ffff;
+                       font-size: 16px;
+                       font-weight: 500;
+                       text-transform: uppercase;
+                    }
+                 }
+            }
+    } 
+    }
+}
